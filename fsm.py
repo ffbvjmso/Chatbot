@@ -112,7 +112,7 @@ class TocMachine(GraphMachine):
         update.message.reply_text("Enter\nR:choose other\nM:for more\nE:return to menu")
 
     def on_enter_dog_3(self, update):
-        update.message.reply_text("")
+        update.message.reply_text("https://zh-tw.facebook.com/ncku.vdogs/")
         update.message.reply_text("Enter\nR:choose other\nE:return to menu")
 
     def on_exit_state3(self, update):
