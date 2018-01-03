@@ -42,4 +42,4 @@ Enter the message by the instructions.
 		*Return to `user` state
 
 ## Finite State Machine
-![fsm](./img/show-fsm.png)
+![fsm](./pic/show-fsm.png)
