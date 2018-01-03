@@ -19,7 +19,7 @@ Enter the message by the instructions.
 	* Input: "dog"
 		* Reply: "You choose dog" and go to `dog` state
 * rabbit/cat/dog
-	* Input: "A/B/C"
+	* Input: "A" or "B" or "C"
 		* Show the link of the website and go to the corresponding state
 
 	* Input: "E"
@@ -27,16 +27,16 @@ Enter the message by the instructions.
 
 * rabbit1/rabbit2/cat1/cat2/dog1/dog2
 	* Input: "R"
-		*Return to `rabbit/cat/dog`
+		*Return to `rabbit`/`cat`/`dog`
 
 	* Input: "M"
-		*Go to `rabbit3/cat3/dog3`
+		*Go to `rabbit3`/`cat3`/`dog3`
 
 	* Input: "E"
 		*Go back to `user` state
 * rabbit3/cat3/dog3
 	* Input: "R"
-		*Return to `rabbit/cat/dog`
+		*Return to `rabbit`/`cat`/`dog`
 
 	* Input: "E"
 		*Return to `user` state
