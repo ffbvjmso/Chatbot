@@ -2,13 +2,12 @@
 
 A telegram bot based on a finite state machine
 
-## Finite State Machine
-![fsm](./img/show-fsm.png)
+## What can the bot do
+You can enter the name of the animal and the bot will find pictures for you. Also, it will provide you some other information.
 
 ## Usage
 The initial state is set to `user`.
-
-
+Enter the message by the instructions.
 
 * user
 	* Input: "rabbit"
@@ -41,3 +40,6 @@ The initial state is set to `user`.
 
 	* Input: "E"
 		*Return to `user` state
+
+## Finite State Machine
+![fsm](./img/show-fsm.png)
